@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Sprite">
+      <UniqueIdentifier>{cba58092-ec1e-40af-a472-cfed48af2a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine">
+      <UniqueIdentifier>{936e82d6-fd42-401d-baa8-3508cfd92e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\vecter2">
+      <UniqueIdentifier>{2e62bc83-5eca-4564-be9f-19299643ece6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\key">
+      <UniqueIdentifier>{241b950b-1485-4afd-9b1e-5b17ad7687bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Rect">
+      <UniqueIdentifier>{33a3d95d-8e27-4618-9ef1-0fc34e87f412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{56f4a8c3-06fe-446a-b831-8d847dd1bb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MapData">
+      <UniqueIdentifier>{801ce99a-138d-441f-999c-7453b1c925b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="hsSprite.h">
+      <Filter>소스 파일\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="hsEngine.h">
+      <Filter>소스 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="hsVector2.h">
+      <Filter>소스 파일\vecter2</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>소스 파일\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="hsKey.h">
+      <Filter>소스 파일\key</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>소스 파일\MapData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hsSprite.cpp">
+      <Filter>소스 파일\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="hsEngine.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="hsVector2.cpp">
+      <Filter>소스 파일\vecter2</Filter>
+    </ClCompile>
+    <ClCompile Include="hsKey.cpp">
+      <Filter>소스 파일\key</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>소스 파일\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>소스 파일\MapData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

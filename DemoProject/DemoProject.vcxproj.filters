@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{4e933e28-82e3-4c03-a1b8-879fe82390c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{b9d5e711-5e96-4ff0-b145-eff4c34b96fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameManager">
+      <UniqueIdentifier>{47d56b4f-5202-4b17-9d09-2b3bdfc4d0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monster">
+      <UniqueIdentifier>{553a97b5-93f9-4397-ab66-4ccfb5c7a765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Enum">
+      <UniqueIdentifier>{72ef27da-dcc9-4fe1-946e-dc1d020a5390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Impact">
+      <UniqueIdentifier>{1c2fb036-ccc0-4c70-848f-4894e1e48cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Door">
+      <UniqueIdentifier>{db721c81-8115-4d22-9ad6-d53250ee53ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{34fdb282-d66f-4309-a6c1-67ead0b8c614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Trap">
+      <UniqueIdentifier>{2457849b-9441-4932-95e6-ad5f441842ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoProject.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Impact.h">
+      <Filter>소스 파일\Impact</Filter>
+    </ClInclude>
+    <ClInclude Include="Eclass.h">
+      <Filter>소스 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>소스 파일\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerMonster.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>소스 파일\Trap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DemoProject.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Impact.cpp">
+      <Filter>소스 파일\Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="Eclass.cpp">
+      <Filter>소스 파일\Enum</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>소스 파일\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="General.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerMonster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>소스 파일\Trap</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
